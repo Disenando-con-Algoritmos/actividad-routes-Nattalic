@@ -1,15 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-
-import CatalogPage from "./pages/catalog/CatalogPage";
 import "./index.css";
-import RegisterPage from "./pages/register/RegisterPage";
-import LoginPage from "./pages/login/LoginPage";
+import { RouterProvider } from "react-router";
+
+import router from "./routes/Router";
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
-        <RegisterPage />
-        <LoginPage />
-        <CatalogPage />
+        <RouterProvider router={router} />
     </StrictMode>
 );
