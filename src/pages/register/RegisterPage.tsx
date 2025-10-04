@@ -15,7 +15,7 @@ export default function RegisterPage() {
                             <input type="text" className="input" placeholder="Fullname" />
                             <label className="label text-pink-800">Password</label>
                             <input type="password" className="input" placeholder="Password" />
-                            <button className="btn btn-neutral  mt-4">Login</button>
+                            <button className="btn bg-fuchsia-900  text-white mt-4">Login</button>
                         </fieldset>
                     </div>
                 </div>
